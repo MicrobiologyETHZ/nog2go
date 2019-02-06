@@ -13,7 +13,7 @@
 nog2go <- function(nog){
     gos <- sapply(nog,function(x) nogGoMap[[x]])
     if(length(nog)<2){
-        gos <- gos[[1]]
+        gos <- as.vector(gos)
     }
     return(gos)
 }

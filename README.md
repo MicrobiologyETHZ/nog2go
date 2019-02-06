@@ -1,2 +1,2 @@
-# nog2g0
+# nog2go
 R package to map NOG terms to GO category codes
